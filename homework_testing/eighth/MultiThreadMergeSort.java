@@ -2,7 +2,7 @@ package homework_testing.eighth;
 
 import java.util.Arrays;
 
-public class MergeSortThreaded {
+public class MultiThreadMergeSort {
     public static void mergeArrays(int[] a, int[] b) {
         int[] resultArr = new int[a.length + b.length];
         int i = 0;
