@@ -1,4 +1,4 @@
-package lexical.man_lex;
+package other.lexical.man_lex;
 
 public class Token {
     private String type;
