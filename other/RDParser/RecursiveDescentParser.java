@@ -15,7 +15,7 @@ class RecursiveDescentParser {
 
     //-----------------------------------------------------------------------------------------------------------
     public RecursiveDescentParser() throws IOException {   //constructor
-        this.fr = new FileReader("tokens.txt");           //created FileReader object with input source file
+        this.fr = new FileReader("other\\RDParser\\test.txt");           //created FileReader object with input source file
         this.br = new BufferedReader(fr);                  //created BufferedReader object to read from FileReader
         this.token = readNextToken();                     //initialize to the first token
 
