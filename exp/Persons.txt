@@ -1,0 +1,9 @@
+name=Jack
+sex=M
+age=19
+sid=ST011
+major=Math
+name=Mary
+sex=F
+age=18
+
