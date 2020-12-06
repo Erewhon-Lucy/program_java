@@ -3,11 +3,11 @@ package homework_testing.tenth;
 import java.net.*;
 import java.io.*;
 
-public class ServerThread extends Servers implements Runnable {
+public class ServerControl extends Servers implements Runnable {
     Socket socket;
     String socketName;
 
-    public ServerThread(Socket socket) {
+    public ServerControl(Socket socket) {
         this.socket = socket;
     }
 

@@ -19,7 +19,7 @@ public class Servers {
                     sockets.add(accept);
                 }
 
-                Thread thread = new Thread(new ServerThread(accept));
+                Thread thread = new Thread(new ServerControl(accept));
                 thread.start();
 
             } catch (Exception e) {

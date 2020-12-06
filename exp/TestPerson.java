@@ -4,7 +4,7 @@ import java.io.*;
 
 public class TestPerson {
     public static void main(String[] args) {
-        String inputFile = "exp\\Persons.txt";
+        String inputFile = "exp\\People.txt";
         ReadFile.ReadName(inputFile);
         ReadFile.ReadSex(inputFile);
         ReadFile.ReadAge(inputFile);
