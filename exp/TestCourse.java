@@ -22,7 +22,7 @@ public class TestCourse {
 
 
         for (int i = 0; i < crs.length; i++) {
-            crs[i].display(crs[i]);
+            crs[i].display();
         }
     }
 }

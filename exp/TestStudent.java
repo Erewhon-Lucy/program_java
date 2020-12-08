@@ -23,7 +23,7 @@ public class TestStudent {
         stu[3].setMajor("Embedded system");
 
         for (int i = 0; i < stu.length; i++) {
-            stu[i].display(stu[i]);
+            stu[i].display();
         }
     }
 }

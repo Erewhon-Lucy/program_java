@@ -22,7 +22,7 @@ public class TestSchedule {
         scd[3].setClassroom("A103");
 
         for (int i = 0; i < scd.length; i++) {
-            scd[i].display(scd[i]);
+            scd[i].display();
         }
     }
 }

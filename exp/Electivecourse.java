@@ -41,9 +41,9 @@ public class Electivecourse {
         this.classid = classid;
     }
 
-    void display(Electivecourse electivecourse) {
-        System.out.println("Elid: " + electivecourse.getElid());
-        System.out.println("Sid: " + electivecourse.getSid());
-        System.out.println("Classid: " + electivecourse.getClassid());
+    void display() {
+        System.out.println("Elid: " + getElid());
+        System.out.println("Sid: " + getSid());
+        System.out.println("Classid: " + getClassid());
     }
 }

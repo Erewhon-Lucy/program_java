@@ -52,10 +52,10 @@ public class Schedule {
         this.classroom = classroom;
     }
 
-    void display(Schedule schedule) {
-        System.out.println("Classid: " + schedule.getClassid());
-        System.out.println("Cid: " + schedule.getCid());
-        System.out.println("Tid: " + schedule.getTid());
-        System.out.println("Classroom: " + schedule.getClassroom());
+    void display() {
+        System.out.println("Classid: " + getClassid());
+        System.out.println("Cid: " + getCid());
+        System.out.println("Tid: " + getTid());
+        System.out.println("Classroom: " + getClassroom());
     }
 }

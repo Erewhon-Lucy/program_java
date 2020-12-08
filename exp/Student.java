@@ -32,9 +32,9 @@ public class Student extends Person {
         this.major = major;
     }
 
-    void display(Student student) {
-        super.display(student);
-        System.out.println("Sid: " + student.getSid());
-        System.out.println("Major: " + student.getMajor());
+    void display() {
+        super.display();
+        System.out.println("Sid: " + getSid());
+        System.out.println("Major: " + getMajor());
     }
 }

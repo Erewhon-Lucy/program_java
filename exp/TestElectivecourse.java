@@ -22,7 +22,7 @@ public class TestElectivecourse {
 
 
         for (int i = 0; i < elc.length; i++) {
-            elc[i].display(elc[i]);
+            elc[i].display();
         }
     }
 }

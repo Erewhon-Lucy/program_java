@@ -12,13 +12,13 @@ public class TestPerson {
 
         for (int i = 0; i < ReadFile.NameArray.length; i++) {
             p[i] = new Person(ReadFile.NameArray[i], ReadFile.SexArray[i], ReadFile.AgeArray[i]);
-            p[i].display(p[i]);
+            p[i].display();
         }
         System.out.println("Now test method: ");
         p[3].setName("Lucy");
         p[3].setSex("F");
         p[3].setAge(19);
-        p[3].display(p[3]);
+        p[3].display();
     }
 }
 

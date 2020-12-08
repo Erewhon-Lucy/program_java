@@ -32,9 +32,9 @@ public class Teacher extends Person {
         this.title = title;
     }
 
-    void display(Teacher teacher) {
-        super.display(teacher);
-        System.out.println("Sid: " + teacher.getTid());
-        System.out.println("Major: " + teacher.getTitle());
+    void display() {
+        super.display();
+        System.out.println("Sid: " + getTid());
+        System.out.println("Major: " + getTitle());
     }
 }

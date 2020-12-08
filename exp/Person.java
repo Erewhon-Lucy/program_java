@@ -41,9 +41,9 @@ public class Person {
         this.age = age;
     }
 
-    void display(Person person) {
-        System.out.println("Name: " + person.getName());
-        System.out.println("Sex: " + person.getSex());
-        System.out.println("Age: " + person.getAge());
+    void display() {
+        System.out.println("Name: " + getName());
+        System.out.println("Sex: " + getSex());
+        System.out.println("Age: " + getAge());
     }
 }

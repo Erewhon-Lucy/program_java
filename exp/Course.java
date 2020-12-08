@@ -41,9 +41,9 @@ public class Course {
         this.chour = chour;
     }
 
-    void display(Course course) {
-        System.out.println("Cid: " + course.getCid());
-        System.out.println("Cname: " + course.getCname());
-        System.out.println("Chour: " + course.getChour());
+    void display() {
+        System.out.println("Cid: " + getCid());
+        System.out.println("Cname: " + getCname());
+        System.out.println("Chour: " + getChour());
     }
 }

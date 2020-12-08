@@ -23,7 +23,7 @@ public class TestTeacher {
         tch[3].setTitle("Assistant");
 
         for (int i = 0; i < tch.length; i++) {
-            tch[i].display(tch[i]);
+            tch[i].display();
         }
     }
 }
