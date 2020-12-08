@@ -1,6 +1,8 @@
 package exp;
 
-public class Schedule {
+import java.io.Serializable;
+
+public class Schedule implements Serializable {
     private String classid;
     private String cid;
     private String tid;

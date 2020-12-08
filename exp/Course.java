@@ -1,6 +1,9 @@
 package exp;
 
-public class Course {
+import java.io.Serializable;
+import java.security.SecureRandomParameters;
+
+public class Course implements Serializable {
     private String cname;
     private String cid;
     private int chour;

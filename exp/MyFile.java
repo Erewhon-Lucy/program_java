@@ -52,7 +52,7 @@ class MyFile implements Serializable {
                 people[i++] = person;
             }
         } catch (EOFException e) {
-            System.out.println("People文件读到底了");
+            System.out.println("People read finish");
         }
     }
 
@@ -67,7 +67,7 @@ class MyFile implements Serializable {
                 students[i++] = student;
             }
         } catch (EOFException e) {
-            System.out.println("Students文件读到底了");
+            System.out.println("Students read finish");
         }
     }
 
@@ -82,7 +82,7 @@ class MyFile implements Serializable {
                 teachers[i++] = teacher;
             }
         } catch (EOFException e) {
-            System.out.println("Teachers文件读到底了");
+            System.out.println("Teachers read finish");
         }
     }
 
@@ -97,7 +97,7 @@ class MyFile implements Serializable {
                 courses[i++] = course;
             }
         } catch (EOFException e) {
-            System.out.println("Courses文件读到底了");
+            System.out.println("Courses read finish");
         }
     }
 
@@ -112,7 +112,7 @@ class MyFile implements Serializable {
                 schedules[i++] = schedule;
             }
         } catch (EOFException e) {
-            System.out.println("Schedules文件读到底了");
+            System.out.println("Schedules read finish");
         }
     }
 
@@ -127,7 +127,7 @@ class MyFile implements Serializable {
                 electivecourses[i++] = electivecourse;
             }
         } catch (EOFException e) {
-            System.out.println("Electivecourses文件读到底了");
+            System.out.println("Electivecourses read finish");
         }
     }
 

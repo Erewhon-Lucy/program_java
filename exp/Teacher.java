@@ -1,6 +1,8 @@
 package exp;
 
-public class Teacher extends Person {
+import java.io.Serializable;
+
+public class Teacher extends Person implements Serializable {
     private String tid;
     private String title;
 

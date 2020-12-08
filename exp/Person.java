@@ -1,6 +1,8 @@
 package exp;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     protected String name;
     protected String sex;
     protected int age;

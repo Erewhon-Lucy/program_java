@@ -1,6 +1,8 @@
 package exp;
 
-public class Electivecourse {
+import java.io.Serializable;
+
+public class Electivecourse implements Serializable {
     private String elid;
     private String sid;
     private String classid;
